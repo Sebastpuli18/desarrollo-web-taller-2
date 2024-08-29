@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffffd8;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 10px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#item-A {
+    background-color: #00ff40;
+}
+
+#item-B {
+    background-color: #ff0404;
+}
+
+#item-C {
+    background-color: #5900ff;
+}
+
+#item-D {
+    background-color: #00ffc8;
+}
